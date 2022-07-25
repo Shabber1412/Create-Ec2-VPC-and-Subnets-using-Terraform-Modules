@@ -3,6 +3,6 @@ module "vpc" {
 }
   
 module "ec2_instances" {
-  source  = "./modules/EC2-instance"
+  source  = "./modules/EC2 instances"
   count   = 1
 }
